@@ -32,10 +32,10 @@ def calculo():
     impostos = inss+irpf
     salario_liquido = round(salario - impostos,2)
 
-    print(f'O seu salario bruto é R${salario}'.format(salario,'.2f'))
-    print(f'Você paga R${inss} de INSS'.format(inss,'.2f'))
-    print(f'Você paga R${irpf} de IRPF'.format(irpf,'.2f'))
-    print(f'Seu Salario Liquido é R${salario_liquido}'.format(salario_liquido,'.2f'))
+    print(f'O seu salario bruto é R${salario}')
+    print(f'Você paga R${inss} de INSS')
+    print(f'Você paga R${irpf} de IRPF')
+    print(f'Seu Salario Liquido é R${salario_liquido}')
 
 def get_salario():
     salario = float(input("Qual o seu salario bruto?:"))
